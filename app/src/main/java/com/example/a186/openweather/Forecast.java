@@ -59,7 +59,7 @@ public class Forecast extends AppCompatActivity {
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
-
+//Didn't have time to initialize List View
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(view -> Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
